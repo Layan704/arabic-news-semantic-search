@@ -23,14 +23,20 @@ htmlcov/
 !.env.example
 
 # ── Project artifacts (large or sensitive) ────────────────────────────────
-data/
+data/raw/
+data/processed/
+data/model_training/
+data/embeddings/
 models/
 outputs/
 
+# ── Archives & logs (kept locally, never committed) ───────────────────────
+*.rar
+*.zip
+*.log
+
 # ── Not published to the repo (kept locally only) ──────────────────────────
-tests/
 docs/
-README.md
 
 # ── OS / editor ────────────────────────────────────────────────────────────
 .DS_Store

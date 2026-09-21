@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PYTHONPATH=src)",
+      "Bash(python3 -c \"from arnlp.clustering import build_topic_model, build_umap, build_hdbscan, cluster_quality, save_clusters; from arnlp.preprocessing import ArabicTextPipeline; import ast; ast.parse\\(open\\('src/arnlp/embeddings/fasttext.py'\\).read\\(\\)\\); ast.parse\\(open\\('src/arnlp/embeddings/e5.py'\\).read\\(\\)\\); print\\('all imports OK'\\)\")",
+      "Bash(python3 -m pytest tests/unit -q)"
+    ]
+  }
+}
