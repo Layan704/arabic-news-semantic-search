@@ -1113,8 +1113,8 @@ The result is an Arabic news platform that can retrieve articles by semantic mea
 
 # Team
 
-**Mohammed Almadhoun**  
-**Layan Khaddash**  
+**Layan Khaddash**     
+**Mohammed Almadhoun**    
 **Shatha Al-Ghrair**
 
 **Faculty of Information Technology**  
